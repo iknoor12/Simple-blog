@@ -2,8 +2,8 @@ import React from "react";
 
 function PostDetails({ post, goBack }) {
   return (
-    <div>
-      <button onClick={goBack} style={{ marginBottom: "20px" }}>
+    <div className="post-details">
+      <button className="back-btn" onClick={goBack} style={{ marginBottom: "20px" }}>
         ⬅ Back to Posts
       </button>
 

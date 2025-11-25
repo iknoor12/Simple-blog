@@ -2,7 +2,7 @@ import React from "react";
 
 function PostCard({ post, onSelect }) {
   return (
-    <div 
+    <div className="post-card"
       style={{
         border: "1px solid #ddd",
         padding: "20px",

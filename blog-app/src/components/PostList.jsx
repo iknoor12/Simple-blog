@@ -4,8 +4,7 @@ import PostCard from "./PostCard";
 function PostList({ posts, onSelect }) {
   return (
     <div>
-      <h2>All Blogs</h2>
-      <div style={{ display: "grid", gap: "20px" }}>
+      <div  className="posts-grid">
         {posts.map((post) => (
           <PostCard 
             key={post.id} 
